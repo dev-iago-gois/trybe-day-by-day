@@ -1,0 +1,15 @@
+{
+  "name": "gerador-de-senhas",
+  "version": "1.0.0",
+  "description": "Gerador de senhas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iago Gois",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^4.0.1"
+  },
+  "type": "module"
+}
