@@ -4,12 +4,18 @@
   "description": "Gerador de senhas",
   "main": "index.js",
   "scripts": {
+    "dev": "npx vite --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Iago Gois",
   "license": "ISC",
   "dependencies": {
-    "nanoid": "^4.0.1"
+    "clipboard-copy": "^4.0.1",
+    "nanoid": "^4.0.1",
+    "vite": "^4.1.1"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  }
 }
